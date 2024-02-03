@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynuSharp", "DynuSharp\DynuSharp.csproj", "{F422B436-7E54-4B82-AD3A-6CA9F9A14660}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynuSharp.Test", "Dynu.API.Tests\DynuSharp.Test.csproj", "{358C794B-7A35-46A7-BC19-1CE0AFDB0CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F422B436-7E54-4B82-AD3A-6CA9F9A14660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F422B436-7E54-4B82-AD3A-6CA9F9A14660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F422B436-7E54-4B82-AD3A-6CA9F9A14660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F422B436-7E54-4B82-AD3A-6CA9F9A14660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358C794B-7A35-46A7-BC19-1CE0AFDB0CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358C794B-7A35-46A7-BC19-1CE0AFDB0CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358C794B-7A35-46A7-BC19-1CE0AFDB0CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358C794B-7A35-46A7-BC19-1CE0AFDB0CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73CBA23F-13A1-48CE-B198-5D0BF8D7B0C4}
+	EndGlobalSection
+EndGlobal
