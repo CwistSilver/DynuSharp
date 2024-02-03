@@ -9,6 +9,7 @@
 		<RepositoryType>git</RepositoryType>	
 		<Authors>CwistSilver</Authors>
 		<Company>CwistSilver</Company>
+		<RepositoryUrl>https://github.com/CwistSilver/DynuSharp</RepositoryUrl>
 		<Description>DynuSharp is a cross-platform Library for providing comprehensive access to the full range of features offered by the Dynu API.</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
