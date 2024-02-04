@@ -66,6 +66,9 @@ foreach (var domain in dnsDomains)
 ```
 This code snippet highlights how DynuSharp makes it straightforward to interact with Dynu's API, streamlining the process of managing DNS records with ease and efficiency.
 
+# DynuSharp.HttpTest Example
+For a practical demonstration of **'DynuSharp'** in action, check out the [DynuSharp.HttpTest console application](https://github.com/CwistSilver/DynuSharp.HttpTest). This companion project serves as both a testing framework and an example implementation, showcasing how to integrate and validate connectivity with Dynu API endpoints. Whether you're new to **'DynuSharp'** or looking for advanced usage examples, **'DynuSharp.HttpTest'** provides valuable insights into the library's capabilities.
+
 ## Contributing
 Contributions to **'DynuSharp'** are welcome. Follow these steps to contribute:
 
