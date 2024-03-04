@@ -8,7 +8,7 @@ public class DynuEmailServiceBase
 {
     [JsonPropertyName("id")]
     [IgnoreOnPost]
-    public int Id { get; init; }
+    public int Id { get; set; }
 
     [JsonPropertyName("name")]
     public string Name { get; set; } = string.Empty;

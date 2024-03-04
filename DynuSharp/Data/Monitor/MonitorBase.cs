@@ -13,7 +13,7 @@ public class MonitorBase
     /// </summary>
     [JsonPropertyName("id")]
     [IgnoreOnPost]
-    public int Id { get; init; }
+    public int Id { get; set; }
 
     /// <summary>
     /// The name of the monitor.
@@ -39,7 +39,7 @@ public class MonitorBase
     /// </summary>
     [JsonPropertyName("state")]
     [IgnoreOnPost]
-    public MonitorState State { get; init; }
+    public MonitorState State { get; set; }
 
     /// <summary>
     /// A boolean value indicating whether the monitor is paused.
@@ -53,7 +53,7 @@ public class MonitorBase
     /// </summary>
     [JsonPropertyName("lastCheck")]
     [IgnoreOnPost]
-    public DateTime LastCheck { get; init; }
+    public DateTime LastCheck { get; set; }
 
     /// <summary>
     /// The date and time of the next check to be performed by the monitor.
@@ -61,7 +61,7 @@ public class MonitorBase
     /// </summary>
     [JsonPropertyName("nextCheck")]
     [IgnoreOnPost]
-    public DateTime? NextCheck { get; init; }
+    public DateTime? NextCheck { get; set; }
 
     /// <summary>
     /// The date and time of the last successful check performed by the monitor.
@@ -69,7 +69,7 @@ public class MonitorBase
     /// </summary>
     [JsonPropertyName("lastSuccessfulCheck")]
     [IgnoreOnPost]
-    public DateTime LastSuccessfulCheck { get; init; }
+    public DateTime LastSuccessfulCheck { get; set; }
 
     public override bool Equals(object? obj)
     {

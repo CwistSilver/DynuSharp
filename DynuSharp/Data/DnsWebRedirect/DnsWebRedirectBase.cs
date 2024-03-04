@@ -11,7 +11,7 @@ public class DnsWebRedirectBase
     /// </summary>
     [JsonPropertyName("id")]
     [IgnoreOnPost]
-    public int Id { get; init; }
+    public int Id { get; set; }
 
     /// <summary>
     /// The unique identifier for the domain associated with the web redirect.
@@ -19,7 +19,7 @@ public class DnsWebRedirectBase
     /// </summary>
     [JsonPropertyName("domainId")]
     [IgnoreOnPost]
-    public int DomainId { get; init; }
+    public int DomainId { get; set; }
 
     /// <summary>
     /// The name of the domain associated with the web redirect.
@@ -27,7 +27,7 @@ public class DnsWebRedirectBase
     /// </summary>
     [JsonPropertyName("domainName")]
     [IgnoreOnPost]
-    public string DomainName { get; init; } = string.Empty;
+    public string DomainName { get; set; } = string.Empty;
 
     /// <summary>
     /// The name of the node associated with the web redirect.
@@ -43,7 +43,7 @@ public class DnsWebRedirectBase
     /// </summary>
     [JsonPropertyName("hostname")]
     [IgnoreOnPost]
-    public string Hostname { get; init; } = string.Empty;
+    public string Hostname { get; set; } = string.Empty;
 
     /// <summary>
     /// The type of web redirect, which can either be URL forwarding (UF) or port forwarding (PF).
@@ -63,7 +63,7 @@ public class DnsWebRedirectBase
     /// </summary>
     [JsonPropertyName("updatedOn")]
     [IgnoreOnPost]
-    public DateTime UpdatedOn { get; init; }
+    public DateTime UpdatedOn { get; set; }
 
     /// <summary>
     /// Indicates whether to use dynamic IPv4 address for the redirect.

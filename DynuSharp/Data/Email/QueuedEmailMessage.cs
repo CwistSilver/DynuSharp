@@ -15,7 +15,7 @@ public sealed class QueuedEmailMessage
 
     [JsonPropertyName("tries")]
     [IgnoreOnPost]
-    public int Tries { get; init; }
+    public int Tries { get; set; }
 
     [JsonPropertyName("createdOn")]
     [IgnoreOnPost]

@@ -6,7 +6,7 @@ public sealed class DynuEmailAccount
 {
     [JsonPropertyName("id")]
     [IgnoreOnPost]
-    public int Id { get; init; }
+    public int Id { get; set; }
 
     [JsonPropertyName("emailId")]
     public int EmailId { get; set; }
@@ -16,7 +16,7 @@ public sealed class DynuEmailAccount
 
     [JsonPropertyName("unicodeEmailAddress")]
     [IgnoreOnPost]
-    public string UnicodeEmailAddress { get; init; } = string.Empty;
+    public string UnicodeEmailAddress { get; set; } = string.Empty;
 
     [JsonPropertyName("state")]
     public EmailAccountState State { get; set; }

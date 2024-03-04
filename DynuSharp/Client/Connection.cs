@@ -40,10 +40,7 @@ public sealed class Connection : IConnection
             .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
 
 
-        var handler = new SocketsHttpHandler
-        {
-            PooledConnectionLifetime = TimeSpan.FromMinutes(15)
-        };
+        var handler = new HttpClientHandler();
 
         var policyHandler = new PolicyHttpMessageHandler(retryPolicy)
         {

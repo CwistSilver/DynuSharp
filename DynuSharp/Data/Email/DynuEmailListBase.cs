@@ -6,11 +6,11 @@ public class DynuEmailListBase
 {
     [JsonPropertyName("id")]
     [IgnoreOnPost]
-    public int Id { get; init; }
+    public int Id { get; set; }
 
     [JsonPropertyName("domainId")]
     [IgnoreOnPost]
-    public int DomainId { get; init; }
+    public int DomainId { get; set; }
 
     [JsonPropertyName("domainName")]
     public string DomainName { get; set; } = string.Empty;

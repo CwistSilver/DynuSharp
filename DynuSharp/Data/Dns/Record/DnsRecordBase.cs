@@ -20,7 +20,7 @@ public class DnsRecordBase
     /// </summary>
     [JsonPropertyName("id")]
     [IgnoreOnPost]
-    public int Id { get; init; }
+    public int Id { get; set; }
 
     /// <summary>
     /// The unique identifier for the domain associated with the DNS record.
@@ -34,7 +34,7 @@ public class DnsRecordBase
     /// </summary>
     [JsonPropertyName("domainName")]
     [IgnoreOnPost]
-    public string DomainName { get; init; } = string.Empty;
+    public string DomainName { get; set; } = string.Empty;
 
     /// <summary>
     /// The name of the node associated with the DNS record.
@@ -48,7 +48,7 @@ public class DnsRecordBase
     /// </summary>
     [JsonPropertyName("hostname")]
     [IgnoreOnPost]
-    public string Hostname { get; init; } = string.Empty;
+    public string Hostname { get; set; } = string.Empty;
 
     /// <summary>
     /// The type of the DNS record. This can be one of several enumerated values representing different DNS record types.
@@ -68,7 +68,7 @@ public class DnsRecordBase
     /// </summary>
     [JsonPropertyName("content")]
     [IgnoreOnPost]
-    public string Content { get; init; } = string.Empty;
+    public string Content { get; set; } = string.Empty;
 
     /// <summary>
     /// The date and time when the DNS record was last updated.
@@ -76,7 +76,7 @@ public class DnsRecordBase
     /// </summary>
     [JsonPropertyName("updatedOn")]
     [IgnoreOnPost]
-    public DateTime UpdatedOn { get; init; }
+    public DateTime UpdatedOn { get; set; }
 
     public override bool Equals(object? obj)
     {
