@@ -1,5 +1,5 @@
 # DynuSharp
-<img width="64" height="auto" src="icon.png">
+<img width="64" height="auto" src="https://github.com/CwistSilver/DynuSharp/blob/main/icon.png">
 
 [![DynuSharp](https://img.shields.io/nuget/vpre/DynuSharp.svg?cacheSeconds=3600&label=DynuSharp%20nuget)](https://www.nuget.org/packages/DynuSharp)
 [![NuGet](https://img.shields.io/nuget/dt/DynuSharp.svg?cacheSeconds=3600&label=Downloads)](https://www.nuget.org/packages/DynuSharp)
@@ -86,3 +86,5 @@ Contributions to **'DynuSharp'** are welcome. Follow these steps to contribute:
 
 - [Microsoft.TSS](https://github.com/microsoft/TPM-2.0-Parser)
 - [Microsoft.Extensions.Http.Polly](https://www.nuget.org/packages/Microsoft.Extensions.Http.Polly)
+- [System.Net.Http.Json](https://www.nuget.org/packages/System.Net.Http.Json)
+- [System.Text.Json](https://www.nuget.org/packages/System.Text.Json)
